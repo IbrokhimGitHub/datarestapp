@@ -5,7 +5,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import uz.pdp.datarestapp.entity.AttachmentContent;
 import uz.pdp.datarestapp.projection.CustomAttachmentContent;
 
-@RepositoryRestResource(path = "attachmentContent",excerptProjection = CustomAttachmentContent.class)
+//@RepositoryRestResource(path = "attachmentContent",excerptProjection = CustomAttachmentContent.class)
 public interface AttachmentContentRepository extends JpaRepository<AttachmentContent, Integer> {
 
 }
